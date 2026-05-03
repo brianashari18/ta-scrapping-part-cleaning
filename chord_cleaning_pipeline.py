@@ -52,7 +52,7 @@ GROQ_API_KEY: str = (
 GROQ_MODEL: str = "llama-3.3-70b-versatile"  # free, strong, 128k context
 
 # ── File paths ───────────────────────────────────────────────────────
-INPUT_CSV: Path = Path(__file__).parent / "vierra_scrapping_result.csv"
+INPUT_CSV: Path = Path(__file__).parent / "input_scrapping_result.csv"
 OUTPUT_CSV: Path = Path(__file__).parent / "cleaned_dataset.csv"
 FAILED_LOG: Path = Path(__file__).parent / "failed_rows.log"
 
